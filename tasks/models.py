@@ -1,6 +1,6 @@
 from django.db import models
 from django.conf import settings
-from projects.models import Project
+
 
 USER_MODEL = settings.AUTH_USER_MODEL
 

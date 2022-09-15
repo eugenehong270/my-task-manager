@@ -1,7 +1,7 @@
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic import CreateView, ListView, UpdateView
 from tasks.models import Task
-from django.shortcuts import redirect
+
 from django.urls import reverse_lazy
 
 # Create your views here.
