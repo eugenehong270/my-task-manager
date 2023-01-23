@@ -6,6 +6,7 @@ This web application allows users to have:
 - Task organization through "Projects"
 
 ##################################################################
+
 PAGE LAYOUT
 
 On the top of every page, there will be three links to choose from. These links give you the option to:
