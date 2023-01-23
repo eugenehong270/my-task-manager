@@ -7,7 +7,64 @@ This web application allows users to have:
 
 ##################################################################
 
-PAGE LAYOUT
+TECHNOLOGIES USED
+
+This project was created to showcase the use of the Django framework, specifically Django's Model-View-Tenplate (MVT) architecture.
+
+The project that was created is called "tracker", where three application were installed within it:
+- accounts
+- projects
+- tasks
+
+"accounts" application
+
+    Models:
+        - NA
+
+    Views:
+        - signup
+
+    Templates:
+        - login.html
+        - signup.html
+
+
+"projects" application
+
+    Models:
+        - Project
+
+    Views:
+        - ProjectListView
+        - ProjectDetailView
+        - ProjectCreateView
+
+    Templates:
+        - base.html
+        - create.html
+        - detail.html
+        - list.html
+
+
+"tasks" application
+
+    Models:
+        - Task
+
+
+    Views:
+        - TaskCreateView
+        - TaskListView
+        - TaskUpdateView
+
+    Templates:
+        - create.html
+        - list.html
+
+
+##################################################################
+
+USING THIS APPLICATION | PAGE LAYOUT
 
 On the top of every page, there will be three links to choose from. These links give you the option to:
 
@@ -40,7 +97,7 @@ When navigating to current projects on the home page, the user will be brought t
 when navigating to "My tasks", the user will be brought to a page that lists out their tasks. The user will see:
 
 - name of task
-- startdate of task
+- start date of task
 - end date of task
 - is completed status (toggling the "complete" button will change the status to "true"). Toggling this will change the status on other applicable pages.
 
