@@ -1,3 +1,5 @@
+# My Task Manager
+
 Welcome to "My Task Manager"!
 
 This web application allows users to have:
@@ -5,9 +7,9 @@ This web application allows users to have:
 - An active task checklist
 - Task organization through "Projects"
 
-##################################################################
 
-TECHNOLOGIES USED
+
+## TECHNOLOGIES USED
 
 This project was created to showcase the use of the Django framework, specifically Django's Model-View-Tenplate (MVT) architecture.
 
@@ -16,55 +18,52 @@ The project that was created is called "tracker", where three application were i
 - projects
 - tasks
 
-"accounts" application
+### Accounts
 
-    Models:
-        - NA
+Models:
+    - NA
 
-    Views:
-        - signup
+Views:
+    - signup
 
-    Templates:
-        - login.html
-        - signup.html
-
-
-"projects" application
-
-    Models:
-        - Project
-
-    Views:
-        - ProjectListView
-        - ProjectDetailView
-        - ProjectCreateView
-
-    Templates:
-        - base.html
-        - create.html
-        - detail.html
-        - list.html
+Templates:
+    - login.html
+    - signup.html
 
 
-"tasks" application
+### Projects
 
-    Models:
-        - Task
+Models:
+    - Project
+
+Views:
+    - ProjectListView
+    - ProjectDetailView
+    - ProjectCreateView
+
+Templates:
+    - base.html
+    - create.html
+    - detail.html
+    - list.html
 
 
-    Views:
-        - TaskCreateView
-        - TaskListView
-        - TaskUpdateView
+### Tasks
 
-    Templates:
-        - create.html
-        - list.html
+Models:
+    - Task
+
+Views:
+    - TaskCreateView
+    - TaskListView
+    - TaskUpdateView
+
+Templates:
+    - create.html
+    - list.html
 
 
-##################################################################
-
-USING THIS APPLICATION | PAGE LAYOUT
+## USING THIS APPLICATION | PAGE LAYOUT
 
 On the top of every page, there will be three links to choose from. These links give you the option to:
 
@@ -100,5 +99,3 @@ when navigating to "My tasks", the user will be brought to a page that lists out
 - start date of task
 - end date of task
 - is completed status (toggling the "complete" button will change the status to "true"). Toggling this will change the status on other applicable pages.
-
-##################################################################
