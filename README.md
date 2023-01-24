@@ -9,7 +9,7 @@ This web application allows users to have:
 
 
 
-## TECHNOLOGIES USED
+## Technologies Used
 
 This project was created to showcase the use of the Django framework, specifically Django's Model-View-Tenplate (MVT) architecture.
 
@@ -63,7 +63,7 @@ Templates:
     - list.html
 
 
-## USING THIS APPLICATION | PAGE LAYOUT
+## Using this application| Page Layout
 
 On the top of every page, there will be three links to choose from. These links give you the option to:
 
