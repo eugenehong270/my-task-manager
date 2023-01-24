@@ -21,46 +21,46 @@ The project that was created is called "tracker", where three application were i
 ### Accounts
 
 Models:
-    - NA
+- NA
 
 Views:
-    - signup
+ - signup
 
 Templates:
-    - login.html
-    - signup.html
+- login.html
+- signup.html
 
 
 ### Projects
 
 Models:
-    - Project
+- Project
 
 Views:
-    - ProjectListView
-    - ProjectDetailView
-    - ProjectCreateView
+- ProjectListView
+- ProjectDetailView
+- ProjectCreateView
 
 Templates:
-    - base.html
-    - create.html
-    - detail.html
-    - list.html
+- base.html
+- create.html
+- detail.html
+- list.html
 
 
 ### Tasks
 
 Models:
-    - Task
+- Task
 
 Views:
-    - TaskCreateView
-    - TaskListView
-    - TaskUpdateView
+- TaskCreateView
+- TaskListView
+- TaskUpdateView
 
 Templates:
-    - create.html
-    - list.html
+- create.html
+- list.html
 
 
 ## Using this application| Page Layout
